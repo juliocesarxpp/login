@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/styles.css">
+    <link
+href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+rel='stylesheet'>
+
+   
+    
+    <title>Login - DevClub</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="container">
+
+            <h1>Login</h1>
+
+            <form action="cadastro.php" autocomplete="on" method="post">
+
+                <div class="box-input">
+                    <input type="email" id="email" placeholder="Username" required> <i class="bx bxs-user"></i>
+                </div>
+
+                <div class="box-input">
+                    <input type="password" id="senha" placeholder="Password" minlength="8"> <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <div class="remember-forgot">
+                   
+                    <label for="remember">
+                        <input type="checkbox" id="remember">
+                        Remember me</label>
+                        
+                
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <div class="login">
+                    <button>Login</button>
+                </div>
+
+                <div class="register-link">
+                    <p>Don't have an account?</p>
+                    <a href="#">Register</a>
+                </div>
+
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

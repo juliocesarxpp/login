@@ -16,6 +16,7 @@
         width: 100%;
         overflow-x: hidden;
     }
+    
 body {
     height: 100vh;
     display: flex;

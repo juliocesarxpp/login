@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media (min-width: 300px) and (max-width: 450px) {
+    .container {
+        max-width: 300px;
+        max-height: 280px;
+        padding: 15px 30px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .box-input {
+        width: 100%;
+    }
+
+    .box-input input::placeholder {
+        font-size: 11px;
+    }
+
+    .remember-forgot {
+        font-size: 12px;
+        margin: 0 0 5px 0;
+    }
+
+    .register-link {
+        font-size: 12px;
+    }
+
+    .login button {
+        margin: 5px 0 0 0;
+    }
+
+
+}
